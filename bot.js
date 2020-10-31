@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client(({ partials: ['MESSAGE'] }))
-const PREFIX = "=";
+const PREFIX = "v!";
 const jimp = require('jimp');
 const db = require('quick.db');
 const snekfetch = require('snekfetch');
