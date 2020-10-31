@@ -8,12 +8,12 @@ const { Canvas } = require("canvas-constructor")
 const fetch = require('node-fetch');
 require("./server.js");
 
-const axios = require("axios")
-function uptime() {
-setInterval(() => {
-axios.get("https://welcome-sanskuy.glitch.me")},6000)
-}
-uptime()
+// const axios = require("axios")
+// function uptime() {
+// setInterval(() => {
+// axios.get("https://welcome-sanskuy.glitch.me")},6000)
+// }
+// uptime()
 
 var bot = new Discord.Client();
 
